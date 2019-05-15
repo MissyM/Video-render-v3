@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+
+release/
+student-app-compiled/
+admin-app-compiled/
+
+serializedFiles.txt
