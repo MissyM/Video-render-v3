@@ -1,13 +1,14 @@
 const electron = require('electron')
 const fs = require('fs')
 const path = require('path')
+var shell = require('shelljs')
 const app = electron.app
 
 const userPath = app.getPath('userData')
 const yupayPath = path.join(userPath, 'yupay-files')
-if (!fs.existsSync(yupayPath)) {
-  fs.mkdirSync(yupayPath)
-}
+
+shell.mkdir('-p', yupayPath)
+
 const dbFile = path.join(yupayPath, 'yupay-db.json')
 
 const state = { data: undefined }

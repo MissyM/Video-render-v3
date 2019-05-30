@@ -15,7 +15,11 @@
     "package-linux": "npm run build && build --linux",
     "package-win": "npm run build && build --win --x64"
   },
-  "author": "Milena Cabrera",
+  "author": {
+    "name": "Milena Cabrera",
+    "email": "mcabrerapatino@gmail.com"
+  },
+  "homepage": "",
   "build": {
     "appId": "com.yupay.yupay-desktop",
     "productName": "Yupay",
