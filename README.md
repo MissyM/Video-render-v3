@@ -1,19 +1,23 @@
-# COMO CORRER ESTE CÓDIGO EN MODO DESARROLLO
-1.  Descargue el código
-2.  Debe tener un editor de código como VSCode. Abra la carpeta Yupay en su editor
-3.  Haga click click derecho sobre la carpeta electron
-4.  Haga click izquierdo en la opción abrir terminal. Se abrirá el terminal en la carpeta en la que hizo click.
-5.  Asegurese de que el terminal está en la carpeta electron y escriba el comando `<npm start>`. Este comando corre la aplicación
-de electron y puede ir al navegador y abrir una ventana con la dirección http://localhost:8000
+#   How run this code in development mode
+*Note:* You need to have Node.js, Git and a code editor installed. Please make sure of it. 
+1.  Clone this repo
+2.  On your editor open Video-Render-v3 folder
+3.  Right click over electron folder
+4.  Left click in: open in integrated terminal.
+5.  Check to install the necessary packages for the project to run by typing `npm install`.
+6.  Make sure that your terminal is in electron and write  `npm start`. This command run the app.
+7. Go to the browser and write http://localhost:8000
 
-Y listo, puede hacer cambios en la aplicación. 
+And done! Can you change this app. 
 
-## CÓMO COMPILAR ESTE CÓDIGO Y GENERAR UN EJECUTABLE 
+## How compile this code and generate excecutable
+Open the terminal in Electron folder
 
-1. En windows, escribe en el terminal, en la carpeta electron el comando `<npm run package-win>`
-2. En Mac, dentro de la carpeta de electron en el termina escribe el comando: `<npm run package-mac>`
-3. En linux, dentro de la carpeta de electron en el termina escribe el comando: `<npm run package-linux>`
+1. On Windows: `<npm run package-win>`
+2. On Mac,  `<npm run package-mac>`
+3. Onlinux,  `<npm run package-linux>`
 
-El ejecutable que se genera se encuentra en la carpeta: yupay/electron/release
+The excecutable is in  video-render-v3/electron/release folder
 
-En esta rama se crea la interfaz de entrenamiento que es otro módulo de aprendizaje.
+
+On this branch is created the Training branch wich is in another module of learning. 
