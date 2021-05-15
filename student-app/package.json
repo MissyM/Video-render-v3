@@ -9,7 +9,7 @@
     "@uirouter/react": "^0.8.7",
     "formik": "^1.5.2",
     "formik-material-ui": "0.0.16",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-pdf": "^4.0.2",
